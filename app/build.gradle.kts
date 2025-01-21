@@ -40,6 +40,11 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.constraintlayout.compose)
+    implementation (libs.androidx.material)
+    implementation (libs.androidx.core.ktx.v1120)
+    implementation (libs.material)
     implementation (libs.androidx.lifecycle.runtime.ktx.v231)
     implementation (libs.androidx.runtime.livedata)
     implementation(libs.androidx.core.ktx)
