@@ -40,6 +40,11 @@ android {
 }
 
 dependencies {
+
+    implementation (libs.ui)
+    implementation (libs.ui.tooling.preview)
+    debugImplementation (libs.ui.tooling)
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.constraintlayout.compose)
     implementation (libs.androidx.material)
