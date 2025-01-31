@@ -43,6 +43,9 @@ dependencies {
 
     implementation (libs.ui)
     implementation (libs.ui.tooling.preview)
+    implementation(libs.androidx.storage)
+    implementation(libs.androidx.storage)
+    implementation(libs.androidx.storage)
     debugImplementation (libs.ui.tooling)
     implementation (libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.constraintlayout)
